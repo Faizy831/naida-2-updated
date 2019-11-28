@@ -1,0 +1,104 @@
+// project users , can login , register , and reset password
+user {
+  id,
+  first_name
+  last_name
+  username
+  email,
+  password
+}
+
+
+clients {
+  official_name,
+  number,
+  contact_person,
+  phone_number,
+  email,
+  address,
+  country,
+  finance contact ,
+  finance emailcurrency ,
+  payment terms ,
+  send invoce auto : bool 
+  projects :[Ref]
+}
+// project has 3 types
+projects {
+  project_name,
+  client_id,
+client_name,
+  owner_id : ??? user id ?????
+owner_name*********
+  currency,
+  commissions *********** ,
+  buisiness model,
+  attachments : pdf file ,
+  comments ,
+  material and subCon Billing : bool
+  rates : {
+    product designer ,
+    mechanical designer 
+    digital designer,
+    VP,
+    Partner
+  }
+  project managment fee,
+  Po : {
+    number,
+    hours
+  }
+  down-payment fee,
+  phases : [Ref array of Phases ]
+}
+phases {
+  number , 
+  phase name ,
+  phase Owner 
+  hours , 
+  due Date
+}
+
+payments {
+  project_id : [Ref],
+  client_id :[Ref]
+  phase_id,
+  amount,
+  payment Date
+  status
+}
+suppliers {
+  official name , 
+  number , 
+  contact person , 
+  phone number , 
+  email , 
+  address , 
+  country ,
+  finance contact , 
+  finance email , 
+  currency 
+  payment terms
+}
+expense {
+  handling date ,
+  supplier : [ref]
+  client : [ref],
+  project : [ref],
+  details , 
+  owner : ref ,
+  payment status 
+  charge client :bool
+  invoice Date , 
+  cost 
+  cost for client
+  type , 
+  performa invoice 
+  tax invoice 
+  internal PO
+  currency 
+  payment terms 
+  invoice image : file image
+  client charged for hours : bool
+
+}

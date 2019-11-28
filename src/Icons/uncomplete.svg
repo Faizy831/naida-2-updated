@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .uncomplete-1 {
+        fill: #a4afb7;
+      }
+
+      .uncomplete-2 {
+        fill: #f5f6fa;
+      }
+    </style>
+  </defs>
+  <g id="Group_534" data-name="Group 534" transform="translate(-1425 -411)">
+    <circle id="Ellipse_50" data-name="Ellipse 50" class="uncomplete-1" cx="15" cy="15" r="15" transform="translate(1425 411)"/>
+    <path id="Path_434" data-name="Path 434" class="uncomplete-2" d="M6.188,10.282,0,4.094l2-2L6.188,6.188,12.376,0l2,2Z" transform="translate(1433.156 421.5)"/>
+  </g>
+</svg>

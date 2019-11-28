@@ -1,0 +1,66 @@
+{
+  "name": "nadia_panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^2.3.0",
+    "@devexpress/dx-react-chart-bootstrap4": "^2.3.0",
+    "@devexpress/dx-react-core": "^2.3.0",
+    "asana": "^0.17.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "date-fns": "^2.5.0",
+    "firebase": "^6.3.5",
+    "firebase-tools": "^7.8.1",
+    "formik": "^1.5.8",
+    "jspdf": "^1.5.3",
+    "jspdf-autotable": "^3.2.11",
+    "react": "^16.8.6",
+    "react-big-calendar": "^0.23.0",
+    "react-big-scheduler": "0.2.4",
+    "react-chartjs-2": "^2.8.0",
+    "react-date-range": "^1.0.0-beta",
+    "react-datepicker": "^2.9.6",
+    "react-dnd": "7.5.0",
+    "react-dnd-html5-backend": "7.5.0",
+    "react-dom": "^16.8.6",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-icons": "^3.8.0",
+    "react-redux": "^7.1.0",
+    "react-redux-firebase": "^2.3.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-firestore": "^0.8.0",
+    "redux-thunk": "^2.3.0",
+    "rrule": "2.6.0",
+    "toggl-api": "^1.0.1",
+    "uid": "0.0.2",
+    "validator": "^11.1.0",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

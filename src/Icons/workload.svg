@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 22 8">
+  <defs>
+    <style>
+      .workload-1, .workload-4 {
+        fill: none;
+      }
+
+      .workload-1 {
+        stroke: currentColor;
+        stroke-width: 1.5px;
+      }
+
+      .workload-2 {
+        fill: currentColor;
+      }
+
+      .workload-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_282" data-name="Group 282" transform="translate(-53 -484)">
+    <g id="Rectangle_562" data-name="Rectangle 562" class="workload-1" transform="translate(53 484)">
+      <rect class="workload-3" width="22" height="8" rx="4"/>
+      <rect class="workload-4" x="0.75" y="0.75" width="20.5" height="6.5" rx="3.25"/>
+    </g>
+    <rect id="Rectangle_563" data-name="Rectangle 563" class="workload-2" width="16" height="8" rx="4" transform="translate(53 484)"/>
+  </g>
+</svg>

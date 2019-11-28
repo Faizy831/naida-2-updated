@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .plus-1 {
+        fill: #43425d;
+      }
+
+      .plus-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_534" data-name="Group 534" transform="translate(-345 -767)">
+    <path id="Path_465" data-name="Path 465" class="plus-1" d="M12.5,0a12.779,12.779,0,0,1,5.536,1.29A12.505,12.505,0,1,1,12.5,0Z" transform="translate(345 767)"/>
+    <g id="Group_547" data-name="Group 547">
+      <g id="Group_546" data-name="Group 546">
+        <g id="Group_545" data-name="Group 545">
+          <g id="Group_544" data-name="Group 544">
+            <g id="Group_316" data-name="Group 316" transform="translate(655.899 -24.48) rotate(45)">
+              <rect id="Rectangle_1480" data-name="Rectangle 1480" class="plus-2" width="3" height="15" transform="translate(351.136 775.257) rotate(-45)"/>
+              <rect id="Rectangle_1481" data-name="Rectangle 1481" class="plus-2" width="3" height="15" transform="translate(361.743 773.136) rotate(45)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
